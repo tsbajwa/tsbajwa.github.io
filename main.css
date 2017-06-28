@@ -1,0 +1,266 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(128,128,128,1);
+    line-height: 2;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: rgba(30,144,255,1);
+}
+
+ul {
+    font-size: 18px;
+}
+
+a {
+    color: rgba(30,144,255,1);
+    font-weight: 700;
+}
+
+a:hover, 
+a:focus {
+    color: rgba(0,191,255,0.6);
+    text-decoration: underline;
+}
+
+hr {
+    margin: 20px 0 35px 0;
+}
+
+.btn {
+    color: rgba(250,250,250,1);
+    background-color: rgba(105,105,105,1);
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;   
+}
+.btn:hover,
+.btn:focus {
+    background-color: rgba(105,105,105,0.6);
+    color: rgba(250,250,250,1);
+}
+
+.form-control {
+    padding: 25px 15px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row.match-my-cols {
+    overflow: hidden; 
+}
+
+.row.match-my-cols [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+/* End base changes */
+
+/*  Top Brand Area */
+.top-contact {
+    color: rgba(0,0,0,1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.logo {
+    margin: 25px auto 0 auto;
+    width: 40%;
+}
+
+/* Navigation */
+.navbar {
+    background-color: rgba(105,105,105,1);
+    border: none;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgba(255,255,255,1);
+}
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+    transform: scale(1.1);
+    color: rgba(250,250,250,1);
+    -webkit-transform-origin-x: 0;
+}
+/* nav toggle */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(255,255,255,1);
+}
+.navbar-default .navbar-toggle:focus {
+    background-color: rgba(105,105,105,1);
+}
+
+/* End navigation */
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: rgba(30,144,255,1);
+    color: rgba(250,250,250,1);
+}
+.jumbotron h1 {
+    font-size: 40px;
+    line-height: 1.6;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.jumbotron h2 {
+    color: inherit;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.jumbotron p {
+    line-height: 1.3;
+}
+.jumbotron img {
+    margin-top: 25px;
+}
+
+/* End Jumbotron */
+
+.program h3 {
+    font-weight: 700;
+    color: rgba(0,0,0,1);
+}
+
+/* End front page program */
+
+.services {
+    background-color: rgba(211,211,211,1);
+    padding: 35px 0 35px 0;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.services img {
+    margin-bottom: 30px;
+}
+
+/* End front page services */
+
+.testimonial {
+    margin: 15px 0 25px 0;
+}
+.testimonial p:last-child {
+    font-style: italic;
+    line-height: 0.5;
+}
+/* End front page testimonial */
+
+.subscribe {
+    background-color: rgba(173,216,230,1);
+    
+}
+
+.subscribe img {
+    margin: 20px auto;
+}
+/* End front page subscribe */
+
+.footer {
+    background: rgba(128,128,128,1);
+    color: rgba(250,250,250,1);
+    padding: 20px 0 15px 0;
+}
+/* End footer */
+
+.heading {
+    background: rgba(30,144,255,1);
+    padding: 15px 0 25px 0;
+    color: rgba(255,255,255,1); 
+}
+.heading h1 {
+    color: rgba(255,255,255,1);
+}
+
+.further-info {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.btn-group {
+    margin: 15px 0 20px 0;
+}
+
+.search {
+    position: relative;
+}
+
+.fa-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 0 0 0;
+}
+#search {
+    width: 100%;
+}
+
+.trophy {
+    max-width: 45%;
+    margin-bottom: 20px;
+}
+/* Media Queries */
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.questions p:last-child {
+    margin-bottom: 20px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.top-contact p {
+    text-align: right;
+}
+.logo {
+    width: 95%;
+}
+.trophy {
+    max-width: 90%;
+}
+
+.jumbotron img {
+  display: block;
+  top: 50%;
+  left: 50%;
+}
+
+.absolute {
+    position: relative
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
